@@ -1,0 +1,464 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  margin: 0;
+  border-radius: 0;
+}
+
+.navbar .navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #FFF;
+}
+
+.navbar .navbar-nav > li > a {
+  color: #FFF;
+  text-transform: capitalize;
+}
+
+.navbar .navbar-nav > li > a:hover {
+  color: var(--main-color);
+}
+
+.home {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/image.jpg") no-repeat center center fixed;
+  background-size: cover;
+  padding: 8rem 0;
+}
+
+.home .home-info .basic {
+  font-size: 6rem;
+  font-weight: bold;
+  color: #FFF;
+  margin-top: 6rem;
+}
+
+.home .home-info .lead {
+  color: #FFF;
+  font-size: 3rem;
+  position: relative;
+  padding-bottom: 3rem;
+}
+
+.home .home-info .def {
+  color: #FFF;
+  opacity: .8;
+  margin: 3rem 0;
+}
+
+.home .home-info .btn {
+  background-color: transparent;
+  border: 1px solid #FFF;
+  border-radius: 0;
+  color: #FFF;
+  padding: 6px 20px;
+  margin-bottom: 4rem;
+}
+
+.home form {
+  width: 100%;
+  color: #FFF;
+  background-color: #FFF;
+  margin-top: 6rem;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.home form .form-label {
+  background: #f5f5f5;
+  color: #000;
+  text-align: center;
+  padding: 7px;
+}
+
+.home form .form-input {
+  padding: 20px;
+}
+
+.home form .form-input .form-control {
+  display: inline-block;
+  border: 0;
+  border-bottom: 1px solid #000;
+  border-radius: 0;
+  background-color: #FFF;
+  -webkit-box-shadow: 0 0 0 0;
+          box-shadow: 0 0 0 0;
+}
+
+.home form .form-input .form-control:not(:last-child) {
+  margin-bottom: 3rem;
+}
+
+.home form .btn {
+  border-radius: 0;
+}
+
+.social {
+  border-bottom: 1px solid #000;
+  background-color: #DDD;
+}
+
+.social .social-basic {
+  padding: 10px 0;
+}
+
+.social .social-basic h4 {
+  font-weight: bold;
+}
+
+.social .social-basic p {
+  opacity: .6;
+  text-transform: capitalize;
+}
+
+.social .social-icons {
+  line-height: 110.2px;
+  text-align: center;
+}
+
+.social .social-icons .fa {
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.features {
+  background: #DDD;
+  padding: 8rem 0;
+}
+
+.features .tabs-div ul {
+  list-style: none;
+}
+
+.features .tabs-div ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  background-color: #333333;
+  border-bottom: 1px solid #FFF;
+  color: #FFF;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.features .tabs-div ul li:hover {
+  background-color: var(--main-color);
+}
+
+.features .tabs-div ul :first-child {
+  background: var(--main-color);
+}
+
+.features .features-inner {
+  position: relative;
+  padding: 20px;
+}
+
+.features .features-inner .tab1, .features .features-inner .tab2, .features .features-inner .tab3 {
+  position: absolute;
+  display: none;
+}
+
+.features .features-inner .tab1 .inner-label, .features .features-inner .tab2 .inner-label, .features .features-inner .tab3 .inner-label {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-bottom: 3rem;
+}
+
+.features .features-inner .tab1 .inner-parag, .features .features-inner .tab2 .inner-parag, .features .features-inner .tab3 .inner-parag {
+  font-size: 14px;
+  opacity: .6;
+  margin-bottom: 3rem;
+}
+
+.features .features-inner .tab1 {
+  display: block;
+}
+
+.features .inner-pic .img-responsive {
+  margin-top: 3rem;
+}
+
+.sublist {
+  padding: 6rem 0;
+}
+
+.sublist .sublist-desc {
+  padding: 10px;
+}
+
+.sublist .sublist-desc h2 {
+  margin-bottom: 4rem;
+  padding-bottom: 3rem;
+  position: relative;
+  text-transform: capitalize;
+}
+
+.sublist .sublist-desc p {
+  opacity: .6;
+  margin-bottom: 3rem;
+}
+
+.sublist .sublist-desc .fa {
+  float: left;
+  border: 2px solid var(--main-color);
+  border-radius: 50%;
+  margin-right: 20px;
+  padding: 10px;
+  color: var(--main-color);
+}
+
+.sublist2 {
+  background: #DDD;
+  padding: 6rem 0;
+}
+
+.sublist2 h2 {
+  position: relative;
+  padding-bottom: 3rem;
+  margin-bottom: 4rem;
+}
+
+.sublist2 p {
+  opacity: .6;
+}
+
+.awesome {
+  padding: 6rem 0;
+}
+
+.awesome .h1 {
+  text-transform: capitalize;
+  font-family: 'Raleway', sans-serif;
+  padding-bottom: 2rem;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.awesome p {
+  opacity: .6;
+  font-size: 14px;
+}
+
+.awesome .awesome-desc {
+  margin-top: 3rem;
+}
+
+.awesome .awesome-desc .fa {
+  color: var(--main-color);
+  margin-bottom: 3rem;
+  padding: 10px 20px;
+  border-radius: 50%;
+  border: 2px solid var(--main-color);
+}
+
+.price {
+  padding: 6rem 0;
+  background: #DDD;
+}
+
+.price .h1 {
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  padding-bottom: 3rem;
+}
+
+.price .first-parag-price {
+  opacity: .6;
+  margin: 3rem 0;
+}
+
+.price .price-plane {
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: #FFF;
+}
+
+.price .price-plane h2, .price .price-plane .price-number {
+  margin: 0;
+  color: #FFF;
+  background: #333;
+  border-bottom: 1px solid #FFF;
+}
+
+.price .price-plane h2 {
+  padding: 10px;
+}
+
+.price .price-plane .price-number {
+  height: 180px;
+  font-weight: bold;
+  font-size: 4rem;
+  padding: 1rem 0;
+  border-bottom: 7px solid var(--main-color);
+}
+
+.price .price-plane .price-number .dollar {
+  font-size: 6rem;
+}
+
+.price .price-plane .price-number .def {
+  font-size: 14px;
+  opacity: .6;
+  font-style: italic;
+}
+
+.price .price-plane .specs {
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.price .price-plane .specs .specs-inner {
+  border-bottom: 1px solid #DDD;
+  padding: 7px 0;
+  opacity: .6;
+}
+
+.opinions {
+  padding: 6rem 0;
+}
+
+.opinions h2 {
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  padding-bottom: 3rem;
+  text-transform: capitalize;
+}
+
+.opinions .first-parag {
+  margin: 3rem 0;
+}
+
+.opinions .opinions-inner .message {
+  padding: 10px;
+  background: #DDD;
+  opacity: .6;
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.opinions .opinions-inner .message::before {
+  content: "";
+  border-width: 15px 15px 0px 15px;
+  border-style: solid;
+  border-color: #DDD transparent;
+  position: absolute;
+  left: 15px;
+  bottom: -15px;
+}
+
+.opinions .opinions-inner img {
+  float: left;
+  margin-right: 2rem;
+}
+
+.opinions .opinions-inner .pic-info {
+  text-align: left;
+}
+
+.another {
+  background: url("../images/l.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  padding: 6rem 0;
+}
+
+.another h2 {
+  position: relative;
+  padding-bottom: 3rem;
+}
+
+.another .btn {
+  background: transparent;
+  padding: 6px 20px;
+  border: 1px solid #FFF;
+  margin-top: 2rem;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.another .btn:hover {
+  background: var(--main-color);
+}
+
+.contact {
+  padding: 6rem 0;
+  background: #DDD;
+}
+
+.contact .upper {
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  padding-bottom: 3rem;
+  margin-bottom: 4rem;
+}
+
+.contact .contactus .form-control {
+  margin-bottom: 2rem;
+  border: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-bottom: 1px solid #000;
+  outline: none;
+  resize: none;
+}
+
+footer {
+  display: block;
+  background: #000;
+  padding: 10px;
+  color: #FFF;
+  font-size: 16px;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.orange {
+  color: var(--main-color);
+  font-weight: normal;
+}
+
+.underline::after {
+  content: "";
+  width: 10rem;
+  height: 2px;
+  position: absolute;
+  display: block;
+  bottom: 0;
+  background: var(--main-color);
+}
+
+.underline-center::after {
+  content: "";
+  width: 10rem;
+  height: 2px;
+  position: absolute;
+  display: block;
+  bottom: 0;
+  left: 46%;
+  background: var(--main-color);
+}
+/*# sourceMappingURL=style.css.map */
